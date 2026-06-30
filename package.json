@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "chart.js": "^4.5.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-router-dom": "^6.30.4",
+    "tailwindcss": "^4.3.1"
+  },
+  "name": "crop_recommendation_system",
+  "version": "1.0.0",
+  "description": "A machine learning powered web application that helps farmers choose the most suitable crop to grow based on their soil's nutrient levels and surrounding climate conditions. The system analyzes Nitrogen, Phosphorus, Potassium, temperature, humidity, pH, and rainfall to predict the best crop using trained regression and classification models.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandhithapalanisamy/Crop_Recommendation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nandhithapalanisamy/Crop_Recommendation/issues"
+  },
+  "homepage": "https://github.com/nandhithapalanisamy/Crop_Recommendation#readme"
+}
