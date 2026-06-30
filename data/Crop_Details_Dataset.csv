@@ -1,0 +1,151 @@
+crop_name,category,growth_days,water_need,soil_type,temp_min,temp_max,ph_min,ph_max,profitability,yield_per_acre,market_demand,image_url
+Rice,Cereals & Grains,120,High,Clay Loam,20,35,5.5,6.5,High,5.5,High,"https://source.unsplash.com/400x300/?rice,crop"
+Wheat,Cereals & Grains,110,Medium,Loamy,10,25,6.0,7.5,High,3.5,High,"https://source.unsplash.com/400x300/?wheat,field"
+Maize,Cereals & Grains,90,Medium,Sandy Loam,18,32,5.8,7.0,High,6.0,High,"https://source.unsplash.com/400x300/?maize,corn"
+Barley,Cereals & Grains,85,Low,Loamy,7,22,6.0,7.8,Medium,3.0,Medium,"https://source.unsplash.com/400x300/?barley,grain"
+Sorghum,Cereals & Grains,100,Low,Clay,22,38,5.5,7.5,Medium,2.5,Medium,https://source.unsplash.com/400x300/?sorghum
+Millet,Cereals & Grains,70,Low,Sandy,25,40,5.5,7.0,Low,2.0,Low,"https://source.unsplash.com/400x300/?millet,grain"
+Oats,Cereals & Grains,95,Medium,Loamy,5,20,6.0,7.5,Medium,2.8,Medium,"https://source.unsplash.com/400x300/?oats,cereal"
+Rye,Cereals & Grains,100,Low,Sandy Loam,3,20,5.0,7.0,Low,2.5,Low,"https://source.unsplash.com/400x300/?rye,field"
+Triticale,Cereals & Grains,105,Medium,Loamy,8,22,5.5,7.5,Medium,3.2,Low,"https://source.unsplash.com/400x300/?triticale,grain"
+Teff,Cereals & Grains,60,Low,Clay,15,28,5.0,7.0,Medium,1.5,Medium,"https://source.unsplash.com/400x300/?teff,grain"
+Quinoa,Cereals & Grains,90,Low,Sandy Loam,5,25,6.0,8.0,High,2.0,High,https://source.unsplash.com/400x300/?quinoa
+Amaranth,Cereals & Grains,75,Low,Sandy,20,35,6.0,7.5,Medium,2.2,Medium,"https://source.unsplash.com/400x300/?amaranth,plant"
+Chickpea,Pulses & Legumes,95,Low,Sandy Loam,15,30,5.5,7.0,High,1.5,High,https://source.unsplash.com/400x300/?chickpea
+Lentil,Pulses & Legumes,80,Low,Loamy,10,25,6.0,8.0,High,1.2,High,https://source.unsplash.com/400x300/?lentil
+Green Gram,Pulses & Legumes,65,Low,Sandy Loam,25,35,6.0,7.5,Medium,0.8,Medium,"https://source.unsplash.com/400x300/?mung,bean"
+Black Gram,Pulses & Legumes,70,Low,Clay Loam,25,35,6.0,7.5,Medium,0.9,Medium,"https://source.unsplash.com/400x300/?black,gram,bean"
+Pigeon Pea,Pulses & Legumes,150,Low,Sandy Loam,20,35,5.0,7.0,Medium,1.0,Medium,"https://source.unsplash.com/400x300/?pigeon,pea"
+Soybean,Pulses & Legumes,100,Medium,Clay Loam,20,30,6.0,7.0,High,3.0,High,https://source.unsplash.com/400x300/?soybean
+Peanut,Pulses & Legumes,120,Medium,Sandy Loam,22,35,5.5,7.0,High,2.5,High,"https://source.unsplash.com/400x300/?peanut,groundnut"
+Cowpea,Pulses & Legumes,65,Low,Sandy,25,38,5.5,7.0,Medium,1.0,Medium,"https://source.unsplash.com/400x300/?cowpea,bean"
+Field Pea,Pulses & Legumes,75,Medium,Clay Loam,8,22,6.0,7.5,Medium,1.5,Medium,"https://source.unsplash.com/400x300/?pea,field"
+Faba Bean,Pulses & Legumes,90,Medium,Clay,5,20,6.5,8.0,Medium,2.0,Medium,"https://source.unsplash.com/400x300/?fava,bean"
+Lima Bean,Pulses & Legumes,80,Medium,Sandy Loam,18,30,6.0,7.0,Medium,1.2,Medium,"https://source.unsplash.com/400x300/?lima,bean"
+Runner Bean,Pulses & Legumes,70,Medium,Loamy,15,28,6.0,7.5,Medium,1.4,Low,"https://source.unsplash.com/400x300/?runner,bean"
+Moth Bean,Pulses & Legumes,75,Low,Sandy,28,42,5.5,7.0,Low,0.7,Low,"https://source.unsplash.com/400x300/?moth,bean"
+Peas,Pulses & Legumes,60,Medium,Loamy,8,22,6.0,7.5,High,3.5,High,"https://source.unsplash.com/400x300/?green,peas"
+Sunflower,Oilseeds,90,Medium,Loamy,18,32,6.0,7.5,High,1.5,High,https://source.unsplash.com/400x300/?sunflower
+Mustard,Oilseeds,110,Low,Sandy Loam,8,22,5.5,7.0,High,1.2,High,"https://source.unsplash.com/400x300/?mustard,field"
+Sesame,Oilseeds,90,Low,Sandy Loam,25,38,5.5,7.5,High,0.5,Medium,"https://source.unsplash.com/400x300/?sesame,seeds"
+Linseed,Oilseeds,100,Medium,Clay Loam,10,22,5.5,7.0,Medium,0.8,Medium,"https://source.unsplash.com/400x300/?flax,linseed"
+Castor,Oilseeds,180,Low,Sandy Loam,22,38,5.0,7.5,High,1.0,Medium,"https://source.unsplash.com/400x300/?castor,plant"
+Safflower,Oilseeds,120,Low,Sandy Loam,15,35,6.0,8.0,Medium,0.9,Low,https://source.unsplash.com/400x300/?safflower
+Niger Seed,Oilseeds,100,Low,Clay,18,30,5.5,6.5,Medium,0.6,Low,"https://source.unsplash.com/400x300/?niger,seed"
+Canola,Oilseeds,95,Medium,Loamy,8,22,5.5,7.0,High,1.8,High,"https://source.unsplash.com/400x300/?canola,field"
+Tomato,Vegetables,70,High,Sandy Loam,18,30,6.0,7.0,High,15.0,High,https://source.unsplash.com/400x300/?tomato
+Potato,Vegetables,90,High,Sandy Loam,10,22,5.0,6.5,High,20.0,High,https://source.unsplash.com/400x300/?potato
+Onion,Vegetables,120,Medium,Sandy Loam,13,28,6.0,7.0,High,12.0,High,https://source.unsplash.com/400x300/?onion
+Garlic,Vegetables,150,Medium,Sandy Loam,8,25,6.0,7.0,High,8.0,High,https://source.unsplash.com/400x300/?garlic
+Carrot,Vegetables,75,Medium,Sandy,10,22,6.0,6.8,Medium,14.0,High,https://source.unsplash.com/400x300/?carrot
+Cabbage,Vegetables,80,Medium,Clay Loam,7,22,6.0,7.5,Medium,18.0,High,https://source.unsplash.com/400x300/?cabbage
+Cauliflower,Vegetables,85,Medium,Loamy,8,22,6.0,7.0,High,10.0,High,https://source.unsplash.com/400x300/?cauliflower
+Brinjal,Vegetables,75,Medium,Sandy Loam,20,32,5.5,7.0,Medium,12.0,Medium,"https://source.unsplash.com/400x300/?eggplant,brinjal"
+Capsicum,Vegetables,80,Medium,Sandy Loam,18,30,6.0,7.0,High,8.0,High,"https://source.unsplash.com/400x300/?capsicum,pepper"
+Cucumber,Vegetables,55,High,Sandy Loam,18,32,6.0,7.0,Medium,20.0,High,https://source.unsplash.com/400x300/?cucumber
+Pumpkin,Vegetables,90,Medium,Sandy Loam,18,35,6.0,7.5,Medium,10.0,Medium,https://source.unsplash.com/400x300/?pumpkin
+Bitter Gourd,Vegetables,60,Medium,Sandy Loam,25,38,6.0,7.0,Medium,6.0,Medium,"https://source.unsplash.com/400x300/?bitter,gourd"
+Bottle Gourd,Vegetables,65,High,Sandy Loam,25,38,6.0,7.5,Low,12.0,Low,"https://source.unsplash.com/400x300/?bottle,gourd"
+Ridgegourd,Vegetables,60,Medium,Sandy Loam,25,38,6.0,7.5,Low,8.0,Low,"https://source.unsplash.com/400x300/?ridge,gourd"
+Spinach,Vegetables,45,High,Loamy,5,20,6.5,7.5,High,8.0,High,https://source.unsplash.com/400x300/?spinach
+Lettuce,Vegetables,50,High,Loamy,5,22,6.0,7.0,High,10.0,High,https://source.unsplash.com/400x300/?lettuce
+Radish,Vegetables,30,Medium,Sandy Loam,10,22,5.8,6.8,Medium,16.0,Medium,https://source.unsplash.com/400x300/?radish
+Beetroot,Vegetables,60,Medium,Sandy Loam,10,22,6.0,7.5,Medium,14.0,Medium,https://source.unsplash.com/400x300/?beetroot
+Okra,Vegetables,60,Medium,Sandy Loam,22,35,6.0,7.5,Medium,6.0,Medium,https://source.unsplash.com/400x300/?okra
+Sweet Potato,Vegetables,120,Medium,Sandy,20,32,5.5,6.5,Medium,10.0,Medium,"https://source.unsplash.com/400x300/?sweet,potato"
+Yam,Vegetables,210,High,Sandy Loam,22,32,5.5,7.0,Medium,8.0,Medium,https://source.unsplash.com/400x300/?yam
+Taro,Vegetables,180,High,Clay Loam,22,32,5.5,6.5,Medium,7.0,Low,"https://source.unsplash.com/400x300/?taro,root"
+Colocasia,Vegetables,180,High,Clay,22,35,5.5,7.0,Low,6.0,Low,"https://source.unsplash.com/400x300/?colocasia,taro"
+Cluster Bean,Vegetables,90,Low,Sandy,25,38,7.0,8.5,Low,4.0,Low,"https://source.unsplash.com/400x300/?cluster,bean,guar"
+Asparagus,Vegetables,730,Medium,Sandy Loam,5,25,6.5,7.5,High,2.5,High,https://source.unsplash.com/400x300/?asparagus
+Artichoke,Vegetables,180,Medium,Loamy,8,28,6.5,8.0,High,4.0,Medium,https://source.unsplash.com/400x300/?artichoke
+Broccoli,Vegetables,80,Medium,Loamy,7,22,6.0,7.0,High,8.0,High,https://source.unsplash.com/400x300/?broccoli
+Brussels Sprouts,Vegetables,100,Medium,Clay Loam,5,18,6.0,7.5,High,6.0,Medium,"https://source.unsplash.com/400x300/?brussels,sprouts"
+Celery Root,Vegetables,110,High,Loamy,8,20,6.0,7.5,Medium,5.0,Low,"https://source.unsplash.com/400x300/?celeriac,celery"
+Endive,Vegetables,90,Medium,Sandy Loam,5,22,6.0,7.5,Medium,7.0,Low,"https://source.unsplash.com/400x300/?endive,chicory"
+Kale,Vegetables,60,Medium,Loamy,3,20,6.0,7.5,High,8.0,High,https://source.unsplash.com/400x300/?kale
+Kohlrabi,Vegetables,60,Medium,Sandy Loam,8,22,5.5,7.0,Medium,10.0,Low,https://source.unsplash.com/400x300/?kohlrabi
+Leek,Vegetables,120,Medium,Loamy,5,22,6.0,7.5,Medium,9.0,Medium,https://source.unsplash.com/400x300/?leek
+Parsnip,Vegetables,120,Medium,Sandy Loam,5,20,6.0,8.0,Medium,8.0,Low,https://source.unsplash.com/400x300/?parsnip
+Swiss Chard,Vegetables,50,Medium,Loamy,8,25,6.0,7.5,Medium,9.0,Medium,"https://source.unsplash.com/400x300/?swiss,chard"
+Turnip,Vegetables,60,Medium,Sandy Loam,5,22,6.0,7.5,Low,12.0,Low,https://source.unsplash.com/400x300/?turnip
+Zucchini,Vegetables,55,Medium,Sandy Loam,18,32,6.0,7.5,High,10.0,High,"https://source.unsplash.com/400x300/?zucchini,courgette"
+Sweet Corn,Vegetables,70,High,Sandy Loam,18,32,6.0,7.0,High,8.0,High,"https://source.unsplash.com/400x300/?sweet,corn"
+Mango,Fruits,365,Medium,Loamy,22,38,5.5,7.5,High,5.0,High,https://source.unsplash.com/400x300/?mango
+Banana,Fruits,270,High,Clay Loam,22,35,5.5,7.0,High,14.0,High,https://source.unsplash.com/400x300/?banana
+Papaya,Fruits,180,Medium,Sandy Loam,22,38,6.0,7.0,High,12.0,High,https://source.unsplash.com/400x300/?papaya
+Guava,Fruits,365,Low,Sandy Loam,20,35,4.5,7.0,Medium,10.0,Medium,https://source.unsplash.com/400x300/?guava
+Pineapple,Fruits,540,Medium,Sandy Loam,22,32,4.5,6.5,High,10.0,High,https://source.unsplash.com/400x300/?pineapple
+Watermelon,Fruits,80,High,Sandy,22,38,6.0,7.0,High,14.0,High,https://source.unsplash.com/400x300/?watermelon
+Muskmelon,Fruits,80,Medium,Sandy,22,38,6.0,7.0,Medium,10.0,Medium,"https://source.unsplash.com/400x300/?muskmelon,melon"
+Grapes,Fruits,365,Medium,Sandy Loam,15,32,5.5,7.0,High,6.0,High,"https://source.unsplash.com/400x300/?grapes,vineyard"
+Pomegranate,Fruits,365,Low,Sandy Loam,15,38,5.5,7.5,High,5.0,High,https://source.unsplash.com/400x300/?pomegranate
+Apple,Fruits,365,Medium,Sandy Loam,5,20,5.5,7.0,High,8.0,High,"https://source.unsplash.com/400x300/?apple,fruit"
+Pear,Fruits,365,Medium,Sandy Loam,5,22,6.0,7.5,High,7.0,High,"https://source.unsplash.com/400x300/?pear,fruit"
+Peach,Fruits,365,Medium,Sandy Loam,5,25,6.0,7.5,High,6.0,High,"https://source.unsplash.com/400x300/?peach,fruit"
+Plum,Fruits,365,Medium,Loamy,5,25,5.5,7.0,High,5.0,Medium,"https://source.unsplash.com/400x300/?plum,fruit"
+Cherry,Fruits,365,Medium,Sandy Loam,3,18,6.0,7.5,High,3.0,High,"https://source.unsplash.com/400x300/?cherry,fruit"
+Strawberry,Fruits,90,High,Sandy Loam,10,22,5.5,6.5,High,4.0,High,https://source.unsplash.com/400x300/?strawberry
+Litchi,Fruits,365,High,Sandy Loam,20,35,5.5,7.0,High,4.0,High,"https://source.unsplash.com/400x300/?lychee,litchi"
+Jackfruit,Fruits,365,Medium,Sandy Loam,22,38,6.0,7.5,Medium,6.0,Medium,https://source.unsplash.com/400x300/?jackfruit
+Coconut,Fruits,365,High,Sandy,22,38,5.5,7.0,High,60.0,High,"https://source.unsplash.com/400x300/?coconut,palm"
+Avocado,Fruits,365,Medium,Sandy Loam,15,30,6.0,7.0,High,5.0,High,https://source.unsplash.com/400x300/?avocado
+Dragon Fruit,Fruits,365,Low,Sandy,18,38,6.0,7.0,High,4.0,High,"https://source.unsplash.com/400x300/?dragon,fruit"
+Passion Fruit,Fruits,365,Medium,Sandy Loam,18,32,6.0,7.5,High,3.0,Medium,"https://source.unsplash.com/400x300/?passion,fruit"
+Lemon,Fruits,365,Medium,Sandy Loam,15,32,5.5,7.0,High,8.0,High,https://source.unsplash.com/400x300/?lemon
+Orange,Fruits,365,Medium,Sandy Loam,15,35,6.0,7.5,High,10.0,High,"https://source.unsplash.com/400x300/?orange,fruit"
+Grapefruit,Fruits,365,Medium,Sandy Loam,15,32,6.0,7.5,Medium,7.0,Medium,https://source.unsplash.com/400x300/?grapefruit
+Mandarin,Fruits,365,Medium,Sandy Loam,12,30,5.5,7.0,High,9.0,High,"https://source.unsplash.com/400x300/?mandarin,tangerine"
+Kiwi,Fruits,365,High,Sandy Loam,10,25,6.0,7.0,High,5.0,High,"https://source.unsplash.com/400x300/?kiwi,fruit"
+Fig,Fruits,365,Low,Sandy Loam,15,38,6.0,8.0,Medium,4.0,Medium,"https://source.unsplash.com/400x300/?fig,fruit"
+Mulberry,Fruits,365,Medium,Loamy,10,32,5.5,7.5,Medium,5.0,Low,https://source.unsplash.com/400x300/?mulberry
+Raspberry,Fruits,365,Medium,Sandy Loam,5,22,5.5,6.5,High,3.0,High,https://source.unsplash.com/400x300/?raspberry
+Blueberry,Fruits,365,Medium,Sandy,5,22,4.5,5.5,High,2.5,High,https://source.unsplash.com/400x300/?blueberry
+Gooseberry,Fruits,365,Medium,Sandy Loam,5,22,5.5,7.0,Medium,2.0,Low,https://source.unsplash.com/400x300/?gooseberry
+Apricot,Fruits,365,Low,Sandy Loam,5,25,6.0,7.5,High,4.0,Medium,https://source.unsplash.com/400x300/?apricot
+Olive,Fruits,365,Low,Sandy Loam,10,35,6.5,8.5,High,2.5,High,"https://source.unsplash.com/400x300/?olive,tree"
+Persimmon,Fruits,365,Low,Sandy Loam,10,30,6.0,7.5,High,4.0,Medium,https://source.unsplash.com/400x300/?persimmon
+Longan,Fruits,365,Medium,Sandy Loam,22,38,5.5,7.0,High,5.0,Medium,"https://source.unsplash.com/400x300/?longan,fruit"
+Rambutan,Fruits,365,High,Clay Loam,22,38,5.5,6.5,High,6.0,Medium,https://source.unsplash.com/400x300/?rambutan
+Mangosteen,Fruits,365,High,Clay,22,38,5.0,6.5,High,3.0,High,https://source.unsplash.com/400x300/?mangosteen
+Sugarcane,Cash Crops,330,High,Clay Loam,20,38,5.5,7.5,High,40.0,High,https://source.unsplash.com/400x300/?sugarcane
+Cotton,Cash Crops,180,Medium,Black Cotton,22,38,5.5,8.0,High,1.5,High,"https://source.unsplash.com/400x300/?cotton,plant"
+Jute,Cash Crops,120,High,Clay Loam,25,38,6.0,7.5,Medium,2.5,Medium,"https://source.unsplash.com/400x300/?jute,plant"
+Tobacco,Cash Crops,90,Medium,Sandy Loam,18,32,5.5,7.5,High,2.0,Medium,"https://source.unsplash.com/400x300/?tobacco,plant"
+Coffee,Cash Crops,365,Medium,Loamy,18,28,6.0,7.0,High,1.0,High,"https://source.unsplash.com/400x300/?coffee,plant"
+Tea,Cash Crops,365,High,Clay,15,28,4.5,6.0,High,1.5,High,"https://source.unsplash.com/400x300/?tea,plantation"
+Rubber,Cash Crops,365,High,Clay Loam,22,35,4.5,6.5,High,1.5,High,"https://source.unsplash.com/400x300/?rubber,tree"
+Vanilla,Cash Crops,365,High,Sandy Loam,20,32,6.0,7.0,High,0.3,High,"https://source.unsplash.com/400x300/?vanilla,plant"
+Cardamom,Cash Crops,365,High,Clay Loam,18,28,5.5,7.0,High,0.4,High,"https://source.unsplash.com/400x300/?cardamom,spice"
+Black Pepper,Cash Crops,365,High,Clay Loam,20,32,5.5,7.0,High,0.5,High,"https://source.unsplash.com/400x300/?black,pepper"
+Cinnamon,Cash Crops,730,High,Sandy Loam,22,35,5.0,7.0,High,0.6,High,"https://source.unsplash.com/400x300/?cinnamon,spice"
+Clove,Cash Crops,365,High,Loamy,22,32,5.5,7.0,High,0.5,High,"https://source.unsplash.com/400x300/?clove,spice"
+Nutmeg,Cash Crops,365,High,Sandy Loam,22,35,5.5,7.0,High,0.4,High,"https://source.unsplash.com/400x300/?nutmeg,spice"
+Turmeric,Cash Crops,210,High,Sandy Loam,20,35,5.5,7.0,High,1.5,High,https://source.unsplash.com/400x300/?turmeric
+Ginger,Cash Crops,210,High,Sandy Loam,20,35,5.5,7.0,High,2.0,High,"https://source.unsplash.com/400x300/?ginger,root"
+Coriander,Spices & Herbs,45,Low,Sandy Loam,15,28,6.0,7.5,Medium,0.8,High,"https://source.unsplash.com/400x300/?coriander,herb"
+Cumin,Spices & Herbs,120,Low,Sandy Loam,15,32,6.0,8.0,High,0.5,High,"https://source.unsplash.com/400x300/?cumin,spice"
+Fennel,Spices & Herbs,90,Low,Sandy Loam,15,30,5.5,7.5,Medium,0.8,Medium,https://source.unsplash.com/400x300/?fennel
+Fenugreek,Spices & Herbs,70,Low,Clay Loam,10,28,6.0,7.0,Medium,0.7,Medium,https://source.unsplash.com/400x300/?fenugreek
+Chilli,Spices & Herbs,90,Medium,Sandy Loam,20,35,6.0,7.5,High,2.0,High,"https://source.unsplash.com/400x300/?chilli,pepper"
+Mint,Spices & Herbs,60,High,Loamy,8,28,6.0,7.0,High,3.0,High,"https://source.unsplash.com/400x300/?mint,herb"
+Basil,Spices & Herbs,45,Medium,Sandy Loam,18,32,6.0,7.5,High,2.5,High,"https://source.unsplash.com/400x300/?basil,herb"
+Dill,Spices & Herbs,50,Medium,Sandy Loam,10,25,5.5,7.0,Medium,1.0,Medium,"https://source.unsplash.com/400x300/?dill,herb"
+Ajwain,Spices & Herbs,120,Low,Sandy Loam,15,30,6.0,8.0,Medium,0.6,Medium,"https://source.unsplash.com/400x300/?ajwain,carom"
+Celery,Spices & Herbs,100,High,Loamy,8,22,6.0,7.5,Medium,5.0,Medium,https://source.unsplash.com/400x300/?celery
+Flax,Fiber Crops,100,Medium,Loamy,8,22,6.0,7.0,Medium,0.9,Medium,"https://source.unsplash.com/400x300/?flax,linen"
+Hemp,Fiber Crops,70,Medium,Loamy,10,28,6.0,7.5,High,1.5,High,"https://source.unsplash.com/400x300/?hemp,plant"
+Kenaf,Fiber Crops,150,Medium,Sandy Loam,22,35,6.0,7.5,Medium,3.5,Low,"https://source.unsplash.com/400x300/?kenaf,fiber"
+Sisal,Fiber Crops,365,Low,Sandy,18,38,5.5,7.5,Medium,1.0,Low,"https://source.unsplash.com/400x300/?sisal,agave"
+Alfalfa,Fodder Crops,60,Medium,Loamy,8,28,6.5,8.0,Medium,6.0,Medium,https://source.unsplash.com/400x300/?alfalfa
+Berseem,Fodder Crops,45,High,Clay Loam,8,25,7.0,8.5,Low,8.0,Low,"https://source.unsplash.com/400x300/?clover,fodder"
+Sudan Grass,Fodder Crops,60,Medium,Sandy Loam,22,38,5.5,7.5,Low,5.0,Low,"https://source.unsplash.com/400x300/?sudan,grass"
+Napier Grass,Fodder Crops,90,High,Loamy,20,38,5.5,7.5,Low,30.0,Low,"https://source.unsplash.com/400x300/?napier,elephant,grass"
+Oil Palm,Plantation Crops,365,High,Clay Loam,22,35,4.0,6.5,High,4.0,High,"https://source.unsplash.com/400x300/?oil,palm,tree"
+Cocoa,Plantation Crops,365,High,Clay Loam,20,32,6.0,7.5,High,0.8,High,"https://source.unsplash.com/400x300/?cocoa,cacao"
+Arecanut,Plantation Crops,365,High,Clay Loam,22,38,6.0,7.5,High,0.8,High,"https://source.unsplash.com/400x300/?areca,nut,palm"
+Cashew,Plantation Crops,365,Low,Sandy Loam,20,38,5.0,6.5,High,0.8,High,https://source.unsplash.com/400x300/?cashew
+Date Palm,Plantation Crops,365,Low,Sandy,20,45,8.0,11.0,High,1.0,High,"https://source.unsplash.com/400x300/?date,palm"
+Tamarind,Plantation Crops,365,Low,Sandy Loam,20,38,5.5,7.5,Medium,1.5,Medium,https://source.unsplash.com/400x300/?tamarind
+Moringa,Plantation Crops,270,Low,Sandy Loam,22,40,5.0,9.0,High,3.0,High,https://source.unsplash.com/400x300/?moringa
+Neem,Plantation Crops,365,Low,Sandy Loam,22,42,6.0,8.5,High,1.0,Medium,"https://source.unsplash.com/400x300/?neem,tree"
