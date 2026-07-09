@@ -60,27 +60,27 @@ X_train_res, y_train_res = X_train, y_train
 # MODEL 1 — LOGISTIC REGRESSION
 # =====================================================
 
-print("\nTraining Logistic Regression...")
-lr = LogisticRegression(max_iter=5000, random_state=42)
-lr.fit(X_train_res, y_train_res)
-lr_pred = lr.predict(X_test)
-lr_acc  = accuracy_score(y_test, lr_pred)
-print(f"  Accuracy: {lr_acc * 100:.2f}%")
+#print("\nTraining Logistic Regression...")
+#lr = LogisticRegression(max_iter=5000, random_state=42)
+#lr.fit(X_train_res, y_train_res)
+#lr_pred = lr.predict(X_test)
+#lr_acc  = accuracy_score(y_test, lr_pred)
+#print(f"  Accuracy: {lr_acc * 100:.2f}%")
 
 # =====================================================
 # MODEL 2 — RANDOM FOREST
 # =====================================================
 
-print("Training Random Forest...")
-rf = RandomForestClassifier(
-    n_estimators=500,
-    random_state=42,
-    n_jobs=-1
-)
-rf.fit(X_train_res, y_train_res)
-rf_pred = rf.predict(X_test)
-rf_acc  = accuracy_score(y_test, rf_pred)
-print(f"  Accuracy: {rf_acc * 100:.2f}%")
+#print("Training Random Forest...")
+#rf = RandomForestClassifier(
+#    n_estimators=500,
+#    random_state=42,
+#    n_jobs=-1
+#)
+#rf.fit(X_train_res, y_train_res)
+#rf_pred = rf.predict(X_test)
+#rf_acc  = accuracy_score(y_test, rf_pred)
+#print(f"  Accuracy: {rf_acc * 100:.2f}%")
 
 # =====================================================
 # MODEL 3 — EXTRA TREES
@@ -101,35 +101,35 @@ print(f"  Accuracy: {et_acc * 100:.2f}%")
 # MODEL 4 — HIST GRADIENT BOOSTING
 # =====================================================
 
-print("Training Hist Gradient Boosting...")
-hgb = HistGradientBoostingClassifier(
-    max_iter=300,
-    random_state=42
-)
-hgb.fit(X_train_res, y_train_res)
-hgb_pred = hgb.predict(X_test)
-hgb_acc  = accuracy_score(y_test, hgb_pred)
-print(f"  Accuracy: {hgb_acc * 100:.2f}%")
+#print("Training Hist Gradient Boosting...")
+#hgb = HistGradientBoostingClassifier(
+#    max_iter=300,
+#    random_state=42
+#)
+#hgb.fit(X_train_res, y_train_res)
+#hgb_pred = hgb.predict(X_test)
+#hgb_acc  = accuracy_score(y_test, hgb_pred)
+#print(f"  Accuracy: {hgb_acc * 100:.2f}%")
 
 # =====================================================
 # MODEL 5 — XGBOOST
 # =====================================================
 
-print("Training XGBoost...")
-xgb = XGBClassifier(
-    objective='multi:softmax',
-    num_class=num_classes,
-    eval_metric='mlogloss',
-    n_estimators=300,
-    learning_rate=0.1,
-    max_depth=6,
-    random_state=42,
-    verbosity=0
-)
-xgb.fit(X_train_res, y_train_res)
-xgb_pred = xgb.predict(X_test)
-xgb_acc  = accuracy_score(y_test, xgb_pred)
-print(f"  Accuracy: {xgb_acc * 100:.2f}%")
+#print("Training XGBoost...")
+#xgb = XGBClassifier(
+#    objective='multi:softmax',
+#    num_class=num_classes,
+#    eval_metric='mlogloss',
+#    n_estimators=300,
+#    learning_rate=0.1,
+#    max_depth=6,
+#    random_state=42,
+#    verbosity=0
+#)
+#xgb.fit(X_train_res, y_train_res)
+#xgb_pred = xgb.predict(X_test)
+#xgb_acc  = accuracy_score(y_test, xgb_pred)
+#print(f"  Accuracy: {xgb_acc * 100:.2f}%")
 
 # =====================================================
 # RESULTS COMPARISON
@@ -137,18 +137,18 @@ print(f"  Accuracy: {xgb_acc * 100:.2f}%")
 
 results = pd.DataFrame({
     "Model": [
-        "Logistic Regression",
-        "Random Forest",
+        #"Logistic Regression",
+        #"Random Forest",
         "Extra Trees",
-        "Hist Gradient Boosting",
-        "XGBoost"
+        #"Hist Gradient Boosting",
+        #"XGBoost"
     ],
     "Accuracy (%)": [
-        round(lr_acc  * 100, 2),
-        round(rf_acc  * 100, 2),
+        #round(lr_acc  * 100, 2),
+        #round(rf_acc  * 100, 2),
         round(et_acc  * 100, 2),
-        round(hgb_acc * 100, 2),
-        round(xgb_acc * 100, 2),
+        #round(hgb_acc * 100, 2),
+        #round(xgb_acc * 100, 2),
     ]
 })
 
@@ -168,11 +168,11 @@ best_model_name = best_row["Model"]
 print(f"\nBest Model: {best_model_name} ({best_row['Accuracy (%)']:.2f}%)")
 
 pred_map = {
-    "Logistic Regression":    lr_pred,
-    "Random Forest":          rf_pred,
+    #"Logistic Regression":    lr_pred,
+    #"Random Forest":          rf_pred,
     "Extra Trees":            et_pred,
-    "Hist Gradient Boosting": hgb_pred,
-    "XGBoost":                xgb_pred
+    #"Hist Gradient Boosting": hgb_pred,
+    #"XGBoost":                xgb_pred
 }
 
 print("\nClassification Report:")
@@ -189,13 +189,14 @@ import os
 # SAVE EXTRA TREES MODEL
 # =====================================================
 
-SAVE_DIR = r"C:\\crop_recommendation_system\\server\\models"
+SAVE_DIR = r"C:\crop_recommendation_system\server\models"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
-# Save Extra Trees model
-joblib.dump(et, os.path.join(SAVE_DIR, "crop_model.pkl"))
+# Save Extra Trees model with compression
+model_path = os.path.join(SAVE_DIR, "crop_model.joblib")
+joblib.dump(et, model_path, compress=9)
 
-# Save feature names (required for prediction API)
+# Save feature names
 feature_columns = X.columns.tolist()
 joblib.dump(
     feature_columns,
@@ -208,6 +209,15 @@ joblib.dump(
     os.path.join(SAVE_DIR, "crop_mapping.pkl")
 )
 
-joblib.dump(scaler, os.path.join(SAVE_DIR, "scaler.pkl"))
+# Save scaler (only if you actually use it)
+joblib.dump(
+    scaler,
+    os.path.join(SAVE_DIR, "scaler.pkl")
+)
+
+# Print model size
+size_mb = os.path.getsize(model_path) / (1024 * 1024)
+
 print("\n✅ Extra Trees model saved successfully!")
 print(f"Location: {SAVE_DIR}")
+print(f"Model Size: {size_mb:.2f} MB")
