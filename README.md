@@ -270,7 +270,3 @@ This project was developed as part of an academic learning initiative to demonst
 Open-source technologies including **React.js, Node.js, Express.js, Flask, Scikit-learn, Extra Trees Classifier, PostgreSQL, Pandas, NumPy, Tailwind CSS, Axios, and Joblib** played a significant role in the successful implementation of this project.
 
 ---
-
-# 📄 License
-
-This project is developed for educational and research purposes. Feel free to use, modify, and extend the project with appropriate attribution.
